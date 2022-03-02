@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+  <ExtensionPackages>
+    <ExtensionPackage 
+      name="MSALResource"
+      packageVersion="0.2.0"
+      vendor="Accenture Italy - Industry X"
+      description="Extension to wrap the Microsoft Authentication Library (MSAL) for Java"
+      minimumThingWorxVersion="8.3.0"
+      dependsOn="">
+    
+      <JarResources>
+        <FileResource description="" file="msalresource.jar" type="JAR"/>
+        <FileResource description="" file="msal4j-1.5.0.jar" type="JAR"/>
+      </JarResources>
+    </ExtensionPackage>
+  </ExtensionPackages>
+  
+  <Resources>
+    <Resource aspect.isCreatable="false" aspect.isEditableExtensionObject="false" className="com.thingworx.extension.custom.msal.MSALResource" description="" name="MSALResource"/>
+  </Resources>
+</Entities>
