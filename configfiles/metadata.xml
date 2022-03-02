@@ -3,7 +3,7 @@
   <ExtensionPackages>
     <ExtensionPackage 
       name="MSALResource"
-      packageVersion="0.2.0"
+      packageVersion="1.0.0"
       vendor="Accenture Italy - Industry X"
       description="Extension to wrap the Microsoft Authentication Library (MSAL) for Java"
       minimumThingWorxVersion="8.3.0"
